@@ -1,14 +1,24 @@
 body {
-    font-family:'Roboto', sans-serif;
+    font-family:'Casion', serif;
 }
 h1 {
-    font-size:300%;
+    font-size:70px;
     margin: 0;
+}
+
+p {
+    width: 100%;
+    max-width:800px;
+    margin: 0px auto 50px auto;
+    font-size:24px;
+    line-height:1.5;
+    text-wrap: wrap;
 }
 
 a {
     /* color:black; */
     text-decoration: none;
+    font-size:24px;
     font-weight: 500;
     color: rgb(114, 114, 248);
     -webkit-transition: color 1s;
@@ -21,4 +31,10 @@ a {
 a:hover {
     color: black;
     text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    p {
+        width: 100%;
+    }
 }
